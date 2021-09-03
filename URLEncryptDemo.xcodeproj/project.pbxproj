@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FFB64CA26E20C7A009B2ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64C926E20C7A009B2ED5 /* AppDelegate.m */; };
+		9FFB64CD26E20C7A009B2ED5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64CC26E20C7A009B2ED5 /* SceneDelegate.m */; };
+		9FFB64D026E20C7A009B2ED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64CF26E20C7A009B2ED5 /* ViewController.m */; };
+		9FFB64D326E20C7A009B2ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB64D126E20C7A009B2ED5 /* Main.storyboard */; };
+		9FFB64D526E20C7B009B2ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB64D426E20C7B009B2ED5 /* Assets.xcassets */; };
+		9FFB64D826E20C7B009B2ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB64D626E20C7B009B2ED5 /* LaunchScreen.storyboard */; };
+		9FFB64DB26E20C7B009B2ED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64DA26E20C7B009B2ED5 /* main.m */; };
+		9FFB64E526E20C7B009B2ED5 /* URLEncryptDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64E426E20C7B009B2ED5 /* URLEncryptDemoTests.m */; };
+		9FFB64F026E20C7B009B2ED5 /* URLEncryptDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64EF26E20C7B009B2ED5 /* URLEncryptDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FFB64E126E20C7B009B2ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FFB64BD26E20C7A009B2ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFB64C426E20C7A009B2ED5;
+			remoteInfo = URLEncryptDemo;
+		};
+		9FFB64EC26E20C7B009B2ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FFB64BD26E20C7A009B2ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFB64C426E20C7A009B2ED5;
+			remoteInfo = URLEncryptDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FFB64C526E20C7A009B2ED5 /* URLEncryptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLEncryptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFB64C826E20C7A009B2ED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FFB64C926E20C7A009B2ED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FFB64CB26E20C7A009B2ED5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9FFB64CC26E20C7A009B2ED5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9FFB64CE26E20C7A009B2ED5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FFB64CF26E20C7A009B2ED5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FFB64D226E20C7A009B2ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FFB64D426E20C7B009B2ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FFB64D726E20C7B009B2ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FFB64D926E20C7B009B2ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFB64DA26E20C7B009B2ED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FFB64E026E20C7B009B2ED5 /* URLEncryptDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLEncryptDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFB64E426E20C7B009B2ED5 /* URLEncryptDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLEncryptDemoTests.m; sourceTree = "<group>"; };
+		9FFB64E626E20C7B009B2ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFB64EB26E20C7B009B2ED5 /* URLEncryptDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLEncryptDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFB64EF26E20C7B009B2ED5 /* URLEncryptDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLEncryptDemoUITests.m; sourceTree = "<group>"; };
+		9FFB64F126E20C7B009B2ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FFB64C226E20C7A009B2ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFB64DD26E20C7B009B2ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFB64E826E20C7B009B2ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FFB64BC26E20C7A009B2ED5 = {
+			isa = PBXGroup;
+			children = (
+				9FFB64C726E20C7A009B2ED5 /* URLEncryptDemo */,
+				9FFB64E326E20C7B009B2ED5 /* URLEncryptDemoTests */,
+				9FFB64EE26E20C7B009B2ED5 /* URLEncryptDemoUITests */,
+				9FFB64C626E20C7A009B2ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFB64C626E20C7A009B2ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB64C526E20C7A009B2ED5 /* URLEncryptDemo.app */,
+				9FFB64E026E20C7B009B2ED5 /* URLEncryptDemoTests.xctest */,
+				9FFB64EB26E20C7B009B2ED5 /* URLEncryptDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FFB64C726E20C7A009B2ED5 /* URLEncryptDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB64C826E20C7A009B2ED5 /* AppDelegate.h */,
+				9FFB64C926E20C7A009B2ED5 /* AppDelegate.m */,
+				9FFB64CB26E20C7A009B2ED5 /* SceneDelegate.h */,
+				9FFB64CC26E20C7A009B2ED5 /* SceneDelegate.m */,
+				9FFB64CE26E20C7A009B2ED5 /* ViewController.h */,
+				9FFB64CF26E20C7A009B2ED5 /* ViewController.m */,
+				9FFB64D126E20C7A009B2ED5 /* Main.storyboard */,
+				9FFB64D426E20C7B009B2ED5 /* Assets.xcassets */,
+				9FFB64D626E20C7B009B2ED5 /* LaunchScreen.storyboard */,
+				9FFB64D926E20C7B009B2ED5 /* Info.plist */,
+				9FFB64DA26E20C7B009B2ED5 /* main.m */,
+			);
+			path = URLEncryptDemo;
+			sourceTree = "<group>";
+		};
+		9FFB64E326E20C7B009B2ED5 /* URLEncryptDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB64E426E20C7B009B2ED5 /* URLEncryptDemoTests.m */,
+				9FFB64E626E20C7B009B2ED5 /* Info.plist */,
+			);
+			path = URLEncryptDemoTests;
+			sourceTree = "<group>";
+		};
+		9FFB64EE26E20C7B009B2ED5 /* URLEncryptDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB64EF26E20C7B009B2ED5 /* URLEncryptDemoUITests.m */,
+				9FFB64F126E20C7B009B2ED5 /* Info.plist */,
+			);
+			path = URLEncryptDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FFB64C426E20C7A009B2ED5 /* URLEncryptDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFB64F426E20C7B009B2ED5 /* Build configuration list for PBXNativeTarget "URLEncryptDemo" */;
+			buildPhases = (
+				9FFB64C126E20C7A009B2ED5 /* Sources */,
+				9FFB64C226E20C7A009B2ED5 /* Frameworks */,
+				9FFB64C326E20C7A009B2ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLEncryptDemo;
+			productName = URLEncryptDemo;
+			productReference = 9FFB64C526E20C7A009B2ED5 /* URLEncryptDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FFB64DF26E20C7B009B2ED5 /* URLEncryptDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFB64F726E20C7B009B2ED5 /* Build configuration list for PBXNativeTarget "URLEncryptDemoTests" */;
+			buildPhases = (
+				9FFB64DC26E20C7B009B2ED5 /* Sources */,
+				9FFB64DD26E20C7B009B2ED5 /* Frameworks */,
+				9FFB64DE26E20C7B009B2ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FFB64E226E20C7B009B2ED5 /* PBXTargetDependency */,
+			);
+			name = URLEncryptDemoTests;
+			productName = URLEncryptDemoTests;
+			productReference = 9FFB64E026E20C7B009B2ED5 /* URLEncryptDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FFB64EA26E20C7B009B2ED5 /* URLEncryptDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFB64FA26E20C7B009B2ED5 /* Build configuration list for PBXNativeTarget "URLEncryptDemoUITests" */;
+			buildPhases = (
+				9FFB64E726E20C7B009B2ED5 /* Sources */,
+				9FFB64E826E20C7B009B2ED5 /* Frameworks */,
+				9FFB64E926E20C7B009B2ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FFB64ED26E20C7B009B2ED5 /* PBXTargetDependency */,
+			);
+			name = URLEncryptDemoUITests;
+			productName = URLEncryptDemoUITests;
+			productReference = 9FFB64EB26E20C7B009B2ED5 /* URLEncryptDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFB64BD26E20C7A009B2ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9FFB64C426E20C7A009B2ED5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					9FFB64DF26E20C7B009B2ED5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 9FFB64C426E20C7A009B2ED5;
+					};
+					9FFB64EA26E20C7B009B2ED5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 9FFB64C426E20C7A009B2ED5;
+					};
+				};
+			};
+			buildConfigurationList = 9FFB64C026E20C7A009B2ED5 /* Build configuration list for PBXProject "URLEncryptDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FFB64BC26E20C7A009B2ED5;
+			productRefGroup = 9FFB64C626E20C7A009B2ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFB64C426E20C7A009B2ED5 /* URLEncryptDemo */,
+				9FFB64DF26E20C7B009B2ED5 /* URLEncryptDemoTests */,
+				9FFB64EA26E20C7B009B2ED5 /* URLEncryptDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FFB64C326E20C7A009B2ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFB64D826E20C7B009B2ED5 /* LaunchScreen.storyboard in Resources */,
+				9FFB64D526E20C7B009B2ED5 /* Assets.xcassets in Resources */,
+				9FFB64D326E20C7A009B2ED5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFB64DE26E20C7B009B2ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFB64E926E20C7B009B2ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FFB64C126E20C7A009B2ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFB64D026E20C7A009B2ED5 /* ViewController.m in Sources */,
+				9FFB64CA26E20C7A009B2ED5 /* AppDelegate.m in Sources */,
+				9FFB64DB26E20C7B009B2ED5 /* main.m in Sources */,
+				9FFB64CD26E20C7A009B2ED5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFB64DC26E20C7B009B2ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFB64E526E20C7B009B2ED5 /* URLEncryptDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFB64E726E20C7B009B2ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFB64F026E20C7B009B2ED5 /* URLEncryptDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FFB64E226E20C7B009B2ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFB64C426E20C7A009B2ED5 /* URLEncryptDemo */;
+			targetProxy = 9FFB64E126E20C7B009B2ED5 /* PBXContainerItemProxy */;
+		};
+		9FFB64ED26E20C7B009B2ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFB64C426E20C7A009B2ED5 /* URLEncryptDemo */;
+			targetProxy = 9FFB64EC26E20C7B009B2ED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FFB64D126E20C7A009B2ED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFB64D226E20C7A009B2ED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FFB64D626E20C7B009B2ED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFB64D726E20C7B009B2ED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FFB64F226E20C7B009B2ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FFB64F326E20C7B009B2ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FFB64F526E20C7B009B2ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URLEncryptDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangci.URLEncryptDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FFB64F626E20C7B009B2ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URLEncryptDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangci.URLEncryptDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FFB64F826E20C7B009B2ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URLEncryptDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangci.URLEncryptDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLEncryptDemo.app/URLEncryptDemo";
+			};
+			name = Debug;
+		};
+		9FFB64F926E20C7B009B2ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URLEncryptDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangci.URLEncryptDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLEncryptDemo.app/URLEncryptDemo";
+			};
+			name = Release;
+		};
+		9FFB64FB26E20C7B009B2ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URLEncryptDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangci.URLEncryptDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = URLEncryptDemo;
+			};
+			name = Debug;
+		};
+		9FFB64FC26E20C7B009B2ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = URLEncryptDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wangci.URLEncryptDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = URLEncryptDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FFB64C026E20C7A009B2ED5 /* Build configuration list for PBXProject "URLEncryptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFB64F226E20C7B009B2ED5 /* Debug */,
+				9FFB64F326E20C7B009B2ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFB64F426E20C7B009B2ED5 /* Build configuration list for PBXNativeTarget "URLEncryptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFB64F526E20C7B009B2ED5 /* Debug */,
+				9FFB64F626E20C7B009B2ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFB64F726E20C7B009B2ED5 /* Build configuration list for PBXNativeTarget "URLEncryptDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFB64F826E20C7B009B2ED5 /* Debug */,
+				9FFB64F926E20C7B009B2ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFB64FA26E20C7B009B2ED5 /* Build configuration list for PBXNativeTarget "URLEncryptDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFB64FB26E20C7B009B2ED5 /* Debug */,
+				9FFB64FC26E20C7B009B2ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFB64BD26E20C7A009B2ED5 /* Project object */;
+}
