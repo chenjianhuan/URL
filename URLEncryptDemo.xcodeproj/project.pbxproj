@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F8E7D7E26E21EB200ED5DE6 /* JSSafeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E7D7D26E21EB200ED5DE6 /* JSSafeTool.m */; };
 		9FFB64CA26E20C7A009B2ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64C926E20C7A009B2ED5 /* AppDelegate.m */; };
 		9FFB64CD26E20C7A009B2ED5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64CC26E20C7A009B2ED5 /* SceneDelegate.m */; };
 		9FFB64D026E20C7A009B2ED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64CF26E20C7A009B2ED5 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 		9FFB64DB26E20C7B009B2ED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64DA26E20C7B009B2ED5 /* main.m */; };
 		9FFB64E526E20C7B009B2ED5 /* URLEncryptDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64E426E20C7B009B2ED5 /* URLEncryptDemoTests.m */; };
 		9FFB64F026E20C7B009B2ED5 /* URLEncryptDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB64EF26E20C7B009B2ED5 /* URLEncryptDemoUITests.m */; };
+		9FFB650826E20D0F009B2ED5 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB650026E20D0F009B2ED5 /* RSA.m */; };
+		9FFB650A26E20D0F009B2ED5 /* MJEncryptString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB650526E20D0F009B2ED5 /* MJEncryptString.m */; };
+		9FFB650B26E20D0F009B2ED5 /* MJEncryptStringData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB650626E20D0F009B2ED5 /* MJEncryptStringData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F8E7D7C26E21EB200ED5DE6 /* JSSafeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSafeTool.h; sourceTree = "<group>"; };
+		9F8E7D7D26E21EB200ED5DE6 /* JSSafeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSafeTool.m; sourceTree = "<group>"; };
 		9FFB64C526E20C7A009B2ED5 /* URLEncryptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLEncryptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFB64C826E20C7A009B2ED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FFB64C926E20C7A009B2ED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +60,12 @@
 		9FFB64EB26E20C7B009B2ED5 /* URLEncryptDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLEncryptDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFB64EF26E20C7B009B2ED5 /* URLEncryptDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLEncryptDemoUITests.m; sourceTree = "<group>"; };
 		9FFB64F126E20C7B009B2ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFB650026E20D0F009B2ED5 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		9FFB650126E20D0F009B2ED5 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		9FFB650426E20D0F009B2ED5 /* MJEncryptStringData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJEncryptStringData.h; sourceTree = "<group>"; };
+		9FFB650526E20D0F009B2ED5 /* MJEncryptString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJEncryptString.m; sourceTree = "<group>"; };
+		9FFB650626E20D0F009B2ED5 /* MJEncryptStringData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJEncryptStringData.m; sourceTree = "<group>"; };
+		9FFB650726E20D0F009B2ED5 /* MJEncryptString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJEncryptString.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +93,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F8E7D7B26E21EB200ED5DE6 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				9F8E7D7C26E21EB200ED5DE6 /* JSSafeTool.h */,
+				9F8E7D7D26E21EB200ED5DE6 /* JSSafeTool.m */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
 		9FFB64BC26E20C7A009B2ED5 = {
 			isa = PBXGroup;
 			children = (
+				9FFB64FD26E20D0F009B2ED5 /* URLEncrypt */,
 				9FFB64C726E20C7A009B2ED5 /* URLEncryptDemo */,
 				9FFB64E326E20C7B009B2ED5 /* URLEncryptDemoTests */,
 				9FFB64EE26E20C7B009B2ED5 /* URLEncryptDemoUITests */,
@@ -135,6 +157,36 @@
 				9FFB64F126E20C7B009B2ED5 /* Info.plist */,
 			);
 			path = URLEncryptDemoUITests;
+			sourceTree = "<group>";
+		};
+		9FFB64FD26E20D0F009B2ED5 /* URLEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				9F8E7D7B26E21EB200ED5DE6 /* header */,
+				9FFB650326E20D0F009B2ED5 /* MJEncryptString */,
+				9FFB64FF26E20D0F009B2ED5 /* RSA */,
+			);
+			path = URLEncrypt;
+			sourceTree = "<group>";
+		};
+		9FFB64FF26E20D0F009B2ED5 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB650126E20D0F009B2ED5 /* RSA.h */,
+				9FFB650026E20D0F009B2ED5 /* RSA.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		9FFB650326E20D0F009B2ED5 /* MJEncryptString */ = {
+			isa = PBXGroup;
+			children = (
+				9FFB650726E20D0F009B2ED5 /* MJEncryptString.h */,
+				9FFB650526E20D0F009B2ED5 /* MJEncryptString.m */,
+				9FFB650426E20D0F009B2ED5 /* MJEncryptStringData.h */,
+				9FFB650626E20D0F009B2ED5 /* MJEncryptStringData.m */,
+			);
+			path = MJEncryptString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFB650A26E20D0F009B2ED5 /* MJEncryptString.m in Sources */,
+				9F8E7D7E26E21EB200ED5DE6 /* JSSafeTool.m in Sources */,
 				9FFB64D026E20C7A009B2ED5 /* ViewController.m in Sources */,
+				9FFB650826E20D0F009B2ED5 /* RSA.m in Sources */,
 				9FFB64CA26E20C7A009B2ED5 /* AppDelegate.m in Sources */,
+				9FFB650B26E20D0F009B2ED5 /* MJEncryptStringData.m in Sources */,
 				9FFB64DB26E20C7B009B2ED5 /* main.m in Sources */,
 				9FFB64CD26E20C7A009B2ED5 /* SceneDelegate.m in Sources */,
 			);
